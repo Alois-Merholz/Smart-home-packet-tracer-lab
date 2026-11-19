@@ -26,6 +26,7 @@ Conception et sécurisation d'une architecture réseau segmentée pour une rési
 - **VLAN 50 (GUEST)** : `192.168.50.0/24` (Passerelle : `192.168.50.1`) — Accès invités / prestataires, totalement étanche vis-à-vis du LAN interne.
 - **VLAN 999 (NATIVE / BLACKHOLE)** : VLAN natif sur le trunk et affectation des ports inutilisés du switch.
 
+---
 
 ![Schéma de la topologie](./smart-home-lab.png)
 
