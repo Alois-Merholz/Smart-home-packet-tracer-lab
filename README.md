@@ -58,4 +58,5 @@ Le dossier `configs/` contient les configurations brutes extraites des équipeme
 
 - [Configuration du routeur](./configs/Router.cfg)
 - [Configuration du switch](./configs/Switch1.cfg)
-- [Fichier Packet Tracer](projet-maison-connectée.pkt)
+
+[Fichier Packet Tracer](projet-maison-connectée.pkt)
