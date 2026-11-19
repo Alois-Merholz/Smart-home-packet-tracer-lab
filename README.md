@@ -46,7 +46,7 @@ Conception et sécurisation d'une architecture réseau segmentée pour une rési
 
 Ce projet a nécessité plusieurs adaptations techniques par rapport à une installation domotique haut de gamme réelle :
 
-- **Multiplication des Access Points (AP) & limites des WLANs** : Packet Tracer gère de façon limitée la multiplication de WLANs/SSIDs mappés à différents VLANs sur un même point d'accès ainsi que la gestion centralisée. Il a donc fallu multiplier les AP plutôt que de s'appuyer sur un contrôleur Wi-Fi unifié avec roaming et segmentation fine par SSID.
+- **Multiplication des Access Points (AP) & limites des WLANs** : Packet Tracer gère de façon limitée la multiplication de WLANs/SSIDs mappés à différents VLANs sur un même point d'accès ainsi que la gestion centralisée. Il a donc fallu multiplier les AP plutôt que de s'appuyer sur un contrôleur Wi-Fi type WLC.
 - **Équipements IoT en Wi-Fi au lieu du filaire (Ethernet / bus KNX)** : par contrainte de simulation, des équipements du VLAN 30 (`IOT`) sont rattachés en sans-fil/IP. Dans une maison connectée haut de gamme réelle, la majorité des organes fixes et critiques (éclairages, volets, capteurs, automatismes) passeraient par du **câblage filaire dédié** — notamment un **bus KNX** (via passerelle IP/KNX sécurisée) ou de l'**Ethernet filaire (PoE)** — le Wi-Fi étant réservé aux équipements mobiles.
 - **Pare-feu & Haute Disponibilité** : en production, les ACLs du routeur seraient complétées par un pare-feu dédié (inspection applicative) et une redondance matérielle/électrique adaptée aux systèmes critiques.
 
