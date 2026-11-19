@@ -2,7 +2,7 @@
 Smart Home Enterprise-Grade Network &amp; Security Architecture - Packet Tracer Lab
 
 
-# 🏡 Smart Home Enterprise Network & Security Architecture
+# 🏡 Smart Home Network & Security Architecture
 
 ---
 
